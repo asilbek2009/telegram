@@ -1,0 +1,149 @@
+
+
+.item {
+    background-color: #293A4CFF;
+    list-style-type: none;
+    text-align: center;
+    height: 700px;
+}
+.pages {
+    padding: 0;
+    padding-top: 30px;
+}
+.pages-item {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.pages-item a {
+    text-decoration: none;
+    color: #799798FF;
+}
+.list {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.form img {
+   margin-left: 8px;
+}
+.input {
+    width: 90%;
+    border: none;
+    font-size: 22px;
+    background-color: #F1F1F1FF;
+    padding-top: 0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+.pages-ul {
+    padding: 0;
+    margin-top: 20px;
+}
+.pages-box {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.pages-div img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.pages-box-middle {
+    margin-left: 10px;
+}
+.pages-box-middle h4 {
+    margin: 0;
+    font-weight: bold;
+}
+.pages-box-middle p {
+    margin: 0;
+}
+.pages-box-right {
+    margin-left: auto;
+}
+.pages-box {
+    margin-bottom: 20px;
+}
+.wrap {
+    padding-top: 30px;
+}
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+.header-left {
+
+}
+.header-right {
+    margin-left: auto;
+}
+.header-right img{
+    margin-left: 10px;
+}
+.section {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(70deg,red,green,blue);
+    opacity: 0.6;
+}
+.section-button {
+    background: #7F9369FF;
+    border-radius: 25px;
+    border: none;
+    margin-top: 50%;
+    margin-left: 20%;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+.bloc-too {
+    padding-top: 40px;
+}
+.header-pages {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #E7E7E7FF;
+}
+.header-item {
+    list-style-type: none;
+    height: 50px;
+    
+}
+.header-item a{
+    display: block;
+    text-decoration: none;
+    color: #A99899FF;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.header-item:hover a{
+    color: #168ADEFF;
+}
+.span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    transform: scale(0);
+    background-color: #168ADEFF;
+    transition: all 0.3s ease;
+}
+.header-item:hover .span {
+    transform: scale(1);
+    height: 2px;
+    display: block;
+    width: 100%;
+    background-color: #168ADEFF;
+}
+.header-smile {
+    padding: 0;
+}
+.header-smile-item {
+    list-style-type: none;
+}
+.header-smile-item img{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
